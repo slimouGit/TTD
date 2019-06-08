@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d0cb60f-ae96-4f24-9dd5-3cac21202f27" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/golem/GolemTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/golem/GolemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/golem/GolemTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/golem/GolemTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+            <state relative-caret-position="420">
+              <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -31,7 +30,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/golem/Golem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
+            <state relative-caret-position="324">
               <caret line="38" selection-start-line="38" selection-end-line="38" />
             </state>
           </provider>
@@ -278,23 +277,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.testDevision" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TTD" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="calculator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="calculator" />
-      <option name="MAIN_CLASS_NAME" value="calculator.CalculatorTest" />
-      <option name="METHOD_NAME" value="testDevision" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="GolemTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TTD" />
       <extension name="coverage">
@@ -344,17 +326,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpeekingTest.testSpeeking" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GolemTest.loesungswortRichtig_0Meter_tutNichts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TTD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="speek.*" />
+          <option name="PATTERN" value="golem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="speek" />
-      <option name="MAIN_CLASS_NAME" value="speek.SpeekingTest" />
-      <option name="METHOD_NAME" value="testSpeeking" />
+      <option name="PACKAGE_NAME" value="golem" />
+      <option name="MAIN_CLASS_NAME" value="golem.GolemTest" />
+      <option name="METHOD_NAME" value="loesungswortRichtig_0Meter_tutNichts" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GolemTest.loesungswortRichtig_bewegtSich1Meter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TTD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="golem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="golem" />
+      <option name="MAIN_CLASS_NAME" value="golem.GolemTest" />
+      <option name="METHOD_NAME" value="loesungswortRichtig_bewegtSich1Meter" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -388,18 +387,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.GolemTest" />
-      <item itemvalue="JUnit.CalculatorTest.testDevision" />
-      <item itemvalue="JUnit.SpeekingTest.testSpeeking" />
       <item itemvalue="JUnit.GolemTest.loesungswortFalsch_tutNichts" />
       <item itemvalue="JUnit.GolemTest (1)" />
+      <item itemvalue="JUnit.GolemTest.loesungswortRichtig_bewegtSich1Meter" />
+      <item itemvalue="JUnit.GolemTest.loesungswortRichtig_0Meter_tutNichts" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.GolemTest (1)" />
+        <item itemvalue="JUnit.GolemTest.loesungswortRichtig_0Meter_tutNichts" />
+        <item itemvalue="JUnit.GolemTest.loesungswortRichtig_bewegtSich1Meter" />
         <item itemvalue="JUnit.GolemTest.loesungswortFalsch_tutNichts" />
         <item itemvalue="JUnit.GolemTest" />
-        <item itemvalue="JUnit.SpeekingTest.testSpeeking" />
-        <item itemvalue="JUnit.CalculatorTest.testDevision" />
       </list>
     </recent_temporary>
   </component>
@@ -413,29 +412,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559996221695</updated>
-      <workItem from="1559996225136" duration="6050000" />
+      <workItem from="1559996225136" duration="6840000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CalculatorTest_testDevision - 2019.06.08 at 15h 06m 10s.xml">
-      <configuration name="CalculatorTest.testDevision" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTest_testDevision - 2019.06.08 at 15h 07m 04s.xml">
-      <configuration name="CalculatorTest.testDevision" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpeekingTest_testSpeeking - 2019.06.08 at 15h 27m 16s.xml">
-      <configuration name="SpeekingTest.testSpeeking" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpeekingTest_testSpeeking - 2019.06.08 at 15h 27m 37s.xml">
-      <configuration name="SpeekingTest.testSpeeking" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpeekingTest_testSpeeking - 2019.06.08 at 15h 27m 50s.xml">
-      <configuration name="SpeekingTest.testSpeeking" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpeekingTest_testSpeeking - 2019.06.08 at 15h 29m 11s.xml">
-      <configuration name="SpeekingTest.testSpeeking" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="GolemTest - 2019.06.08 at 17h 12m 04s.xml">
       <configuration name="GolemTest" configurationId="JUnit" />
     </history-entry>
@@ -448,9 +429,27 @@
     <history-entry file="GolemTest_loesungswortFalsch_tutNichts - 2019.06.08 at 17h 13m 26s.xml">
       <configuration name="GolemTest.loesungswortFalsch_tutNichts" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="GolemTest_loesungswortFalsch_tutNichts - 2019.06.08 at 17h 16m 04s.xml">
+      <configuration name="GolemTest.loesungswortFalsch_tutNichts" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GolemTest_loesungswortFalsch_tutNichts - 2019.06.08 at 17h 16m 18s.xml">
+      <configuration name="GolemTest.loesungswortFalsch_tutNichts" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GolemTest_loesungswortFalsch_tutNichts - 2019.06.08 at 17h 16m 35s.xml">
+      <configuration name="GolemTest.loesungswortFalsch_tutNichts" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GolemTest_loesungswortFalsch_tutNichts - 2019.06.08 at 17h 16m 57s.xml">
+      <configuration name="GolemTest.loesungswortFalsch_tutNichts" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GolemTest_(1) - 2019.06.08 at 17h 17m 04s.xml">
+      <configuration name="GolemTest (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GolemTest_loesungswortRichtig_bewegtSich1Meter - 2019.06.08 at 17h 27m 43s.xml">
+      <configuration name="GolemTest.loesungswortRichtig_bewegtSich1Meter" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6050000" />
+    <option name="totallyTimeSpent" value="6840000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="72" y="15" width="1767" height="988" extended-state="0" />
@@ -850,15 +849,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/golem/Golem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
+        <state relative-caret-position="324">
           <caret line="38" selection-start-line="38" selection-end-line="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/golem/GolemTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+        <state relative-caret-position="420">
+          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
         </state>
       </provider>
     </entry>
