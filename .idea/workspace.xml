@@ -21,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/golem/GolemTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="78" column="12" selection-start-line="78" selection-start-column="12" selection-end-line="78" selection-end-column="12" />
+            <state relative-caret-position="391">
+              <caret line="74" column="38" selection-start-line="74" selection-start-column="38" selection-end-line="74" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -140,8 +140,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="807" />
-    <option name="y" value="59" />
+    <option name="x" value="413" />
+    <option name="y" value="106" />
     <option name="width" value="1767" />
     <option name="height" value="988" />
   </component>
@@ -237,6 +237,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -264,7 +265,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GolemTest.starteMissionEnergieIstDa_siegelWirdNachEnergieGefragt">
+  <component name="RunManager" selected="JUnit.GolemTest">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -277,7 +278,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GolemTest.loesungswortFuerSiegelRichtig_golemGlimmt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GolemTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TTD" />
       <extension name="coverage">
         <pattern>
@@ -287,14 +288,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="golem" />
       <option name="MAIN_CLASS_NAME" value="golem.GolemTest" />
-      <option name="METHOD_NAME" value="loesungswortFuerSiegelRichtig_golemGlimmt" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GolemTest.nullSiegelEinsetzen_golemGlimmt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GolemTest.loesungswortRichtig_tutEtwas" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TTD" />
       <extension name="coverage">
         <pattern>
@@ -304,7 +304,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="golem" />
       <option name="MAIN_CLASS_NAME" value="golem.GolemTest" />
-      <option name="METHOD_NAME" value="nullSiegelEinsetzen_golemGlimmt" />
+      <option name="METHOD_NAME" value="loesungswortRichtig_tutEtwas" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -388,19 +388,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.GolemTest.loesungswortFuerSiegelRichtig_golemGlimmt" />
-      <item itemvalue="JUnit.GolemTest.nullSiegelEinsetzen_golemGlimmt" />
       <item itemvalue="JUnit.GolemTest.starteMissionFalschesLoesungswort" />
       <item itemvalue="JUnit.GolemTest.starteMissionEnergieIstDa_MissionWirdGestartet" />
       <item itemvalue="JUnit.GolemTest.starteMissionEnergieIstDa_siegelWirdNachEnergieGefragt" />
+      <item itemvalue="JUnit.GolemTest.loesungswortRichtig_tutEtwas" />
+      <item itemvalue="JUnit.GolemTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GolemTest" />
+        <item itemvalue="JUnit.GolemTest.loesungswortRichtig_tutEtwas" />
         <item itemvalue="JUnit.GolemTest.starteMissionEnergieIstDa_siegelWirdNachEnergieGefragt" />
         <item itemvalue="JUnit.GolemTest.starteMissionEnergieIstDa_MissionWirdGestartet" />
         <item itemvalue="JUnit.GolemTest.starteMissionFalschesLoesungswort" />
-        <item itemvalue="JUnit.GolemTest.nullSiegelEinsetzen_golemGlimmt" />
-        <item itemvalue="JUnit.GolemTest.loesungswortFuerSiegelRichtig_golemGlimmt" />
       </list>
     </recent_temporary>
   </component>
@@ -414,23 +414,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559996221695</updated>
-      <workItem from="1559996225136" duration="8249000" />
+      <workItem from="1559996225136" duration="9023000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GolemTest_(1) - 2019.06.08 at 17h 17m 04s.xml">
-      <configuration name="GolemTest (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GolemTest_loesungswortRichtig_bewegtSich1Meter - 2019.06.08 at 17h 27m 43s.xml">
-      <configuration name="GolemTest.loesungswortRichtig_bewegtSich1Meter" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GolemTest_loesungswortRichtig_0Meter_tutNichts - 2019.06.08 at 17h 29m 17s.xml">
-      <configuration name="GolemTest.loesungswortRichtig_0Meter_tutNichts" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GolemTest_(1) - 2019.06.08 at 17h 30m 50s.xml">
-      <configuration name="GolemTest (1)" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="GolemTest_loesungswortFuerSiegelFalsch_tutNichts - 2019.06.08 at 17h 38m 36s.xml">
       <configuration name="GolemTest.loesungswortFuerSiegelFalsch_tutNichts" configurationId="JUnit" />
     </history-entry>
@@ -449,12 +437,24 @@
     <history-entry file="GolemTest_starteMissionEnergieIstDa_MissionWirdGestartet - 2019.06.08 at 17h 49m 22s.xml">
       <configuration name="GolemTest.starteMissionEnergieIstDa_MissionWirdGestartet" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="GolemTest_starteMissionEnergieIstDa_MissionWirdGestartet - 2019.06.08 at 17h 52m 15s.xml">
+      <configuration name="GolemTest.starteMissionEnergieIstDa_MissionWirdGestartet" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GolemTest_starteMissionEnergieIstDa_siegelWirdNachEnergieGefragt - 2019.06.08 at 17h 54m 29s.xml">
+      <configuration name="GolemTest.starteMissionEnergieIstDa_siegelWirdNachEnergieGefragt" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GolemTest_starteMissionEnergieIstDa_siegelWirdNachEnergieGefragt - 2019.06.08 at 17h 54m 55s.xml">
+      <configuration name="GolemTest.starteMissionEnergieIstDa_siegelWirdNachEnergieGefragt" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GolemTest_loesungswortRichtig_tutEtwas - 2019.06.08 at 17h 59m 47s.xml">
+      <configuration name="GolemTest.loesungswortRichtig_tutEtwas" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8249000" />
+    <option name="totallyTimeSpent" value="9023000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="645" y="63" width="1767" height="988" extended-state="0" />
+    <frame x="413" y="106" width="1767" height="988" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -858,8 +858,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/golem/GolemTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="78" column="12" selection-start-line="78" selection-start-column="12" selection-end-line="78" selection-end-column="12" />
+        <state relative-caret-position="391">
+          <caret line="74" column="38" selection-start-line="74" selection-start-column="38" selection-end-line="74" selection-end-column="38" />
         </state>
       </provider>
     </entry>
