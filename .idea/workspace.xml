@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d0cb60f-ae96-4f24-9dd5-3cac21202f27" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/golem/GolemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/golem/GolemTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/TTD.kotlin_module" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -12,44 +13,39 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/calculator/Calculator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/golem/GolemTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/calculator/CalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="74" column="38" selection-start-line="74" selection-start-column="38" selection-end-line="74" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/golem/Golem.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="58" column="27" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/golem/Richtung.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/golem/Siegel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+            <state relative-caret-position="102">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -140,10 +136,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="413" />
-    <option name="y" value="106" />
-    <option name="width" value="1767" />
-    <option name="height" value="988" />
+    <option name="x" value="-12" />
+    <option name="width" value="1639" />
+    <option name="height" value="895" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -175,6 +170,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TTD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TTD" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="calculator" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TTD" type="b2602c69:ProjectViewProjectNode" />
@@ -225,8 +228,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -265,7 +268,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GolemTest">
+  <component name="RunManager" selected="JUnit.IntegrationTest">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -274,6 +277,22 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TTD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="calculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="calculator" />
+      <option name="MAIN_CLASS_NAME" value="calculator.CalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -311,23 +330,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GolemTest.starteMissionEnergieIstDa_MissionWirdGestartet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TTD" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="golem.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="golem" />
-      <option name="MAIN_CLASS_NAME" value="golem.GolemTest" />
-      <option name="METHOD_NAME" value="starteMissionEnergieIstDa_MissionWirdGestartet" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="GolemTest.starteMissionEnergieIstDa_siegelWirdNachEnergieGefragt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TTD" />
       <extension name="coverage">
@@ -345,18 +347,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GolemTest.starteMissionFalschesLoesungswort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TTD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="golem.*" />
+          <option name="PATTERN" value="integration.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="golem" />
-      <option name="MAIN_CLASS_NAME" value="golem.GolemTest" />
-      <option name="METHOD_NAME" value="starteMissionFalschesLoesungswort" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="integration" />
+      <option name="MAIN_CLASS_NAME" value="integration.IntegrationTest" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -388,19 +389,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.GolemTest.starteMissionFalschesLoesungswort" />
-      <item itemvalue="JUnit.GolemTest.starteMissionEnergieIstDa_MissionWirdGestartet" />
       <item itemvalue="JUnit.GolemTest.starteMissionEnergieIstDa_siegelWirdNachEnergieGefragt" />
       <item itemvalue="JUnit.GolemTest.loesungswortRichtig_tutEtwas" />
       <item itemvalue="JUnit.GolemTest" />
+      <item itemvalue="JUnit.CalculatorTest" />
+      <item itemvalue="JUnit.IntegrationTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.IntegrationTest" />
+        <item itemvalue="JUnit.CalculatorTest" />
         <item itemvalue="JUnit.GolemTest" />
         <item itemvalue="JUnit.GolemTest.loesungswortRichtig_tutEtwas" />
         <item itemvalue="JUnit.GolemTest.starteMissionEnergieIstDa_siegelWirdNachEnergieGefragt" />
-        <item itemvalue="JUnit.GolemTest.starteMissionEnergieIstDa_MissionWirdGestartet" />
-        <item itemvalue="JUnit.GolemTest.starteMissionFalschesLoesungswort" />
       </list>
     </recent_temporary>
   </component>
@@ -414,32 +415,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559996221695</updated>
-      <workItem from="1559996225136" duration="9023000" />
+      <workItem from="1559996225136" duration="9832000" />
+      <workItem from="1560115009006" duration="711000" />
+      <workItem from="1560148761197" duration="102000" />
+      <workItem from="1560150153567" duration="6000" />
+      <workItem from="1560150506484" duration="635000" />
+      <workItem from="1560178831722" duration="20000" />
+      <workItem from="1560612761356" duration="694000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GolemTest_loesungswortFuerSiegelFalsch_tutNichts - 2019.06.08 at 17h 38m 36s.xml">
-      <configuration name="GolemTest.loesungswortFuerSiegelFalsch_tutNichts" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GolemTest_loesungswortFuerSiegelRichtig_golemGlimmt - 2019.06.08 at 17h 40m 04s.xml">
-      <configuration name="GolemTest.loesungswortFuerSiegelRichtig_golemGlimmt" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GolemTest_nullSiegelEinsetzen_golemGlimmt - 2019.06.08 at 17h 42m 28s.xml">
-      <configuration name="GolemTest.nullSiegelEinsetzen_golemGlimmt" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GolemTest_nullSiegelEinsetzen_golemGlimmt - 2019.06.08 at 17h 43m 28s.xml">
-      <configuration name="GolemTest.nullSiegelEinsetzen_golemGlimmt" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GolemTest_starteMissionFalschesLoesungswort - 2019.06.08 at 17h 47m 05s.xml">
-      <configuration name="GolemTest.starteMissionFalschesLoesungswort" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GolemTest_starteMissionEnergieIstDa_MissionWirdGestartet - 2019.06.08 at 17h 49m 22s.xml">
-      <configuration name="GolemTest.starteMissionEnergieIstDa_MissionWirdGestartet" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GolemTest_starteMissionEnergieIstDa_MissionWirdGestartet - 2019.06.08 at 17h 52m 15s.xml">
-      <configuration name="GolemTest.starteMissionEnergieIstDa_MissionWirdGestartet" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="GolemTest_starteMissionEnergieIstDa_siegelWirdNachEnergieGefragt - 2019.06.08 at 17h 54m 29s.xml">
       <configuration name="GolemTest.starteMissionEnergieIstDa_siegelWirdNachEnergieGefragt" configurationId="JUnit" />
     </history-entry>
@@ -449,43 +435,64 @@
     <history-entry file="GolemTest_loesungswortRichtig_tutEtwas - 2019.06.08 at 17h 59m 47s.xml">
       <configuration name="GolemTest.loesungswortRichtig_tutEtwas" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="GolemTest_loesungswortRichtig_tutEtwas - 2019.06.08 at 18h 06m 32s.xml">
+      <configuration name="GolemTest.loesungswortRichtig_tutEtwas" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GolemTest - 2019.06.08 at 18h 06m 37s.xml">
+      <configuration name="GolemTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GolemTest - 2019.06.08 at 18h 52m 48s.xml">
+      <configuration name="GolemTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GolemTest - 2019.06.10 at 17h 00m 39s.xml">
+      <configuration name="GolemTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GolemTest - 2019.06.15 at 17h 32m 47s.xml">
+      <configuration name="GolemTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GolemTest - 2019.06.15 at 17h 33m 01s.xml">
+      <configuration name="GolemTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest - 2019.06.15 at 17h 34m 02s.xml">
+      <configuration name="CalculatorTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9023000" />
+    <option name="totallyTimeSpent" value="12000000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="413" y="106" width="1767" height="988" extended-state="0" />
+    <frame x="-12" y="0" width="1639" height="895" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25073227" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2279924" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" weight="0.32982457" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32982457" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32939634" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5328084" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" weight="0.33099005" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3296" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3295626" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.33099005" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -510,279 +517,45 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/aufrufekapseln/Aufrufer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/aufrufekapseln/ExterneKomponente.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/aufrufekapseln/KonkreteExterneKomponente.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/dreitestarten/Fahrkartenautomat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" selection-start-column="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/dreitestarten/Kronleuchter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/dreitestarten/Licht.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/dreitestarten/Schalter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/dreitestarten/TextWerkzeugkasten.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" selection-start-column="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/erstertest/Rechner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11" selection-start-column="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/integration/modulA/DatenklasseA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/integration/modulA/ModulA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/integration/modulA/ModulB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/integration/modulB/KonkretesModulB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/newauslagern/Archivar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/newauslagern/Datenbank.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/newauslagern/NeuerArchivar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/newauslagern/Schredder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/nureinaspekt/Fahrkartenautomat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/stubsundmocks/Archivar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" selection-start-column="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/stubsundmocks/Datenbank.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/stubsundmocks/Schredder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/uebungen/externeaufrufe/MietMaxGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/uebungen/externeaufrufe/Wohnung.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/uebungen/externeaufrufe/loesung/Datenbestand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/uebungen/externeaufrufe/loesung/MietMaxGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="27" lean-forward="true" selection-start-column="27" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/uebungen/externeaufrufe/loesung/Wohnung.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11" selection-start-column="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/uebungen/externeaufrufe/loesung/Wohnungsdatenbank.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/uebungen/langekerls/Rekrut.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/uebungen/langekerls/Rekrutierungsbuero.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/uebungen/langekerls/TruppenGattung.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/uebungen/preiseberechnen/Preisrechner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/uebungen/preiseberechnen/Ware.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/wastesten/Einheit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11" selection-start-column="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/wastesten/EinheitenFormatter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/de/kurs/unittesting/alleranfang/GolemTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/uebungen/externeaufrufe/Wohnungsdatenbank.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="33" column="57" selection-start-line="33" selection-start-column="57" selection-end-line="33" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/alleranfang/GolemTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/alleranfang/Golem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/alleranfang/GolemTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/aufrufekapseln/Aufrufer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/aufrufekapseln/ExterneKomponente.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/aufrufekapseln/KonkreteExterneKomponente.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/dreitestarten/Fahrkartenautomat.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/dreitestarten/Kronleuchter.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/dreitestarten/Licht.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/dreitestarten/Schalter.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/dreitestarten/TextWerkzeugkasten.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/erstertest/Rechner.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/integration/modulA/DatenklasseA.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/integration/modulA/ModulA.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/integration/modulA/ModulB.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/integration/modulB/KonkretesModulB.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/newauslagern/Archivar.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/newauslagern/Datenbank.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/newauslagern/NeuerArchivar.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/newauslagern/Schredder.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/nureinaspekt/Fahrkartenautomat.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/stubsundmocks/Archivar.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/stubsundmocks/Datenbank.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/stubsundmocks/Schredder.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/uebungen/externeaufrufe/MietMaxGenerator.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/uebungen/externeaufrufe/Wohnung.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/uebungen/externeaufrufe/loesung/Datenbestand.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/uebungen/externeaufrufe/loesung/MietMaxGenerator.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/uebungen/externeaufrufe/loesung/Wohnung.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/uebungen/externeaufrufe/loesung/Wohnungsdatenbank.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/uebungen/langekerls/Rekrut.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/uebungen/langekerls/Rekrutierungsbuero.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/uebungen/langekerls/TruppenGattung.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/uebungen/preiseberechnen/Preisrechner.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/uebungen/preiseberechnen/Ware.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/wastesten/Einheit.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/wastesten/EinheitenFormatter.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/de/kurs/unittesting/alleranfang/GolemTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/uebungen/externeaufrufe/Wohnungsdatenbank.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/alleranfang/GolemTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/alleranfang/Golem.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/alleranfang/GolemTest.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -790,41 +563,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/calculator/Calculator.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/calculator/CalculatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/calculator/Calculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/calculator/Calculator.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/calculator/CalculatorTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/speek/Speeking.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/calculator/CalculatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -835,17 +580,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/golem/Richtung.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/golem/GolemTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+        <state relative-caret-position="191">
+          <caret line="76" column="41" selection-start-line="76" selection-start-column="41" selection-end-line="76" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/golem/Golem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
+        <state relative-caret-position="426">
           <caret line="58" column="27" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/golem/Richtung.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -856,10 +608,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/golem/GolemTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/calculator/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="74" column="38" selection-start-line="74" selection-start-column="38" selection-end-line="74" selection-end-column="38" />
+        <state relative-caret-position="102">
+          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/calculator/CalculatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
