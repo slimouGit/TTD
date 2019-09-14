@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d0cb60f-ae96-4f24-9dd5-3cac21202f27" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Licht/Kronleuchter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Licht/Licht.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Licht/Schalter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TextTrenner/TextWerkzeug.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Licht/AufrufFremdsystemTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TextTrenner/TextWerkzugTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/TTD.kotlin_module" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,20 +37,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/calculator/Calculator.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Licht/AufrufFremdsystemTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+            <state relative-caret-position="204">
+              <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/calculator/CalculatorTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Licht/Schalter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Licht/Kronleuchter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Licht/Licht.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="13" selection-start-column="13" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -65,15 +88,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/kurs/unittesting/aufrufekapseln/Aufrufer.java" />
-        <option value="$PROJECT_DIR$/src/kurs/unittesting/aufrufekapseln/ExterneKomponente.java" />
-        <option value="$PROJECT_DIR$/src/kurs/unittesting/aufrufekapseln/KonkreteExterneKomponente.java" />
-        <option value="$PROJECT_DIR$/src/kurs/unittesting/dreitestarten/Fahrkartenautomat.java" />
-        <option value="$PROJECT_DIR$/src/kurs/unittesting/dreitestarten/Kronleuchter.java" />
-        <option value="$PROJECT_DIR$/src/kurs/unittesting/dreitestarten/Licht.java" />
-        <option value="$PROJECT_DIR$/src/kurs/unittesting/dreitestarten/Schalter.java" />
-        <option value="$PROJECT_DIR$/src/kurs/unittesting/dreitestarten/TextWerkzeugkasten.java" />
-        <option value="$PROJECT_DIR$/src/kurs/unittesting/erstertest/Rechner.java" />
         <option value="$PROJECT_DIR$/src/kurs/unittesting/integration/modulA/DatenklasseA.java" />
         <option value="$PROJECT_DIR$/src/kurs/unittesting/integration/modulA/ModulB.java" />
         <option value="$PROJECT_DIR$/src/kurs/unittesting/integration/modulA/ModulA.java" />
@@ -116,6 +130,15 @@
         <option value="$PROJECT_DIR$/src/main/java/golem/Siegel.java" />
         <option value="$PROJECT_DIR$/src/main/java/golem/Golem.java" />
         <option value="$PROJECT_DIR$/src/test/java/golem/GolemTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/integration/modulA/ModulA.java" />
+        <option value="$PROJECT_DIR$/src/main/java/integration/modulB/KonkretesModulB.java" />
+        <option value="$PROJECT_DIR$/src/test/java/integration/IntegrationTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TextTrenner/TextWerkzeug.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TextTrenner/TextWerkzugTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Licht/Licht.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Licht/Schalter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Licht/Kronleuchter.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Licht/AufrufFremdsystemTest.java" />
       </list>
     </option>
   </component>
@@ -146,6 +169,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -191,6 +215,38 @@
               <item name="TTD" type="b2602c69:ProjectViewProjectNode" />
               <item name="TTD" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="modulA" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TTD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TTD" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="modulB" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TTD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TTD" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Licht" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TTD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TTD" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="TextTrenner" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TTD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TTD" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -222,13 +278,36 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="integration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TTD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TTD" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Licht" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TTD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TTD" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="speek" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TTD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TTD" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="TextTrenner" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -249,9 +328,13 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\git_repo\TTD\src\test\java" />
+      <recent name="F:\git_repo\TTD\src\main\java" />
       <recent name="F:\git_repo\TTD\src\test" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\git_repo\TTD\src\test\java\Licht" />
+      <recent name="F:\git_repo\TTD\src\main\java\Licht" />
+      <recent name="F:\git_repo\TTD\src\main\java" />
       <recent name="F:\git_repo\TTD\src\main" />
       <recent name="F:\git_repo\TTD\src" />
     </key>
@@ -268,7 +351,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.IntegrationTest">
+  <component name="RunManager" selected="JUnit.AufrufFremdsystemTest.leuchtendesLichtWirdAusgeschaltet">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -277,6 +360,23 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AufrufFremdsystemTest.leuchtendesLichtWirdAusgeschaltet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TTD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Licht.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Licht" />
+      <option name="MAIN_CLASS_NAME" value="Licht.AufrufFremdsystemTest" />
+      <option name="METHOD_NAME" value="leuchtendesLichtWirdAusgeschaltet" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -313,40 +413,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GolemTest.loesungswortRichtig_tutEtwas" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TTD" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="golem.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="golem" />
-      <option name="MAIN_CLASS_NAME" value="golem.GolemTest" />
-      <option name="METHOD_NAME" value="loesungswortRichtig_tutEtwas" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GolemTest.starteMissionEnergieIstDa_siegelWirdNachEnergieGefragt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TTD" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="golem.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="golem" />
-      <option name="MAIN_CLASS_NAME" value="golem.GolemTest" />
-      <option name="METHOD_NAME" value="starteMissionEnergieIstDa_siegelWirdNachEnergieGefragt" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="IntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TTD" />
       <extension name="coverage">
@@ -358,6 +424,23 @@
       <option name="PACKAGE_NAME" value="integration" />
       <option name="MAIN_CLASS_NAME" value="integration.IntegrationTest" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TextWerkzugTest.testeTrenner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TTD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TextTrenner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TextTrenner" />
+      <option name="MAIN_CLASS_NAME" value="TextTrenner.TextWerkzugTest" />
+      <option name="METHOD_NAME" value="testeTrenner" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -389,19 +472,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.GolemTest.starteMissionEnergieIstDa_siegelWirdNachEnergieGefragt" />
-      <item itemvalue="JUnit.GolemTest.loesungswortRichtig_tutEtwas" />
       <item itemvalue="JUnit.GolemTest" />
       <item itemvalue="JUnit.CalculatorTest" />
       <item itemvalue="JUnit.IntegrationTest" />
+      <item itemvalue="JUnit.TextWerkzugTest.testeTrenner" />
+      <item itemvalue="JUnit.AufrufFremdsystemTest.leuchtendesLichtWirdAusgeschaltet" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AufrufFremdsystemTest.leuchtendesLichtWirdAusgeschaltet" />
+        <item itemvalue="JUnit.TextWerkzugTest.testeTrenner" />
         <item itemvalue="JUnit.IntegrationTest" />
         <item itemvalue="JUnit.CalculatorTest" />
         <item itemvalue="JUnit.GolemTest" />
-        <item itemvalue="JUnit.GolemTest.loesungswortRichtig_tutEtwas" />
-        <item itemvalue="JUnit.GolemTest.starteMissionEnergieIstDa_siegelWirdNachEnergieGefragt" />
       </list>
     </recent_temporary>
   </component>
@@ -421,23 +504,12 @@
       <workItem from="1560150153567" duration="6000" />
       <workItem from="1560150506484" duration="635000" />
       <workItem from="1560178831722" duration="20000" />
-      <workItem from="1560612761356" duration="694000" />
+      <workItem from="1560612761356" duration="1307000" />
+      <workItem from="1568465269843" duration="1554000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GolemTest_starteMissionEnergieIstDa_siegelWirdNachEnergieGefragt - 2019.06.08 at 17h 54m 29s.xml">
-      <configuration name="GolemTest.starteMissionEnergieIstDa_siegelWirdNachEnergieGefragt" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GolemTest_starteMissionEnergieIstDa_siegelWirdNachEnergieGefragt - 2019.06.08 at 17h 54m 55s.xml">
-      <configuration name="GolemTest.starteMissionEnergieIstDa_siegelWirdNachEnergieGefragt" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GolemTest_loesungswortRichtig_tutEtwas - 2019.06.08 at 17h 59m 47s.xml">
-      <configuration name="GolemTest.loesungswortRichtig_tutEtwas" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GolemTest_loesungswortRichtig_tutEtwas - 2019.06.08 at 18h 06m 32s.xml">
-      <configuration name="GolemTest.loesungswortRichtig_tutEtwas" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="GolemTest - 2019.06.08 at 18h 06m 37s.xml">
       <configuration name="GolemTest" configurationId="JUnit" />
     </history-entry>
@@ -456,15 +528,27 @@
     <history-entry file="CalculatorTest - 2019.06.15 at 17h 34m 02s.xml">
       <configuration name="CalculatorTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="IntegrationTest - 2019.06.15 at 17h 46m 58s.xml">
+      <configuration name="IntegrationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IntegrationTest - 2019.06.15 at 17h 47m 45s.xml">
+      <configuration name="IntegrationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IntegrationTest - 2019.06.15 at 17h 47m 48s.xml">
+      <configuration name="IntegrationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TextWerkzugTest_testeTrenner - 2019.09.14 at 15h 06m 01s.xml">
+      <configuration name="TextWerkzugTest.testeTrenner" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12000000" />
+    <option name="totallyTimeSpent" value="14167000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-12" y="0" width="1639" height="895" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2279924" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23115896" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -473,8 +557,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32939634" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5328084" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32939634" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.16272967" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -483,7 +567,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3296" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32939634" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -513,21 +597,16 @@
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/integration/modulB/KonkretesModulB.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/aufrufekapseln/Aufrufer.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/aufrufekapseln/ExterneKomponente.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/aufrufekapseln/KonkreteExterneKomponente.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/dreitestarten/Fahrkartenautomat.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/dreitestarten/Kronleuchter.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/dreitestarten/Licht.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/dreitestarten/Schalter.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/dreitestarten/TextWerkzeugkasten.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/erstertest/Rechner.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/integration/modulA/DatenklasseA.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/integration/modulA/ModulA.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/integration/modulA/ModulB.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/integration/modulB/KonkretesModulB.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/newauslagern/Archivar.java" />
@@ -619,6 +698,83 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/integration/modulB/KonkretesModulB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/integration/modulA/ModulB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/integration/modulA/ModulA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/integration/modulA/DatenklasseA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/integration/IntegrationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TextTrenner/TextWerkzeug.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TextTrenner/TextWerkzugTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Licht/Licht.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Licht/Schalter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Licht/Kronleuchter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Licht/AufrufFremdsystemTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
         </state>
       </provider>
     </entry>
