@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d0cb60f-ae96-4f24-9dd5-3cac21202f27" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Licht/Kronleuchter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Licht/Licht.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Licht/Schalter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TextTrenner/TextWerkzeug.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Licht/AufrufFremdsystemTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TextTrenner/TextWerkzugTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Fahkartenkauf/Fahrkartenautomat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Fahrkartenkauf/ErkennbareVerhaltensaenderungTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -37,11 +33,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Licht/AufrufFremdsystemTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+              <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -49,8 +45,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Licht/Schalter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+            <state relative-caret-position="170">
+              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -67,8 +63,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Licht/Licht.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" selection-start-column="13" selection-end-column="13" />
+            <state relative-caret-position="51">
+              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TextTrenner/TextWerkzugTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Fahrkartenkauf/ErkennbareVerhaltensaenderungTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="137">
+              <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Fahkartenkauf/Fahrkartenautomat.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-237">
+              <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/TextTrenner/TextWerkzeug.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -88,8 +120,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/kurs/unittesting/integration/modulA/DatenklasseA.java" />
-        <option value="$PROJECT_DIR$/src/kurs/unittesting/integration/modulA/ModulB.java" />
         <option value="$PROJECT_DIR$/src/kurs/unittesting/integration/modulA/ModulA.java" />
         <option value="$PROJECT_DIR$/src/kurs/unittesting/integration/modulB/KonkretesModulB.java" />
         <option value="$PROJECT_DIR$/src/kurs/unittesting/newauslagern/Archivar.java" />
@@ -139,6 +169,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Licht/Schalter.java" />
         <option value="$PROJECT_DIR$/src/main/java/Licht/Kronleuchter.java" />
         <option value="$PROJECT_DIR$/src/test/java/Licht/AufrufFremdsystemTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Fahkartenkauf/Fahrkartenautomat.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Fahrkartenkauf/ErkennbareVerhaltensaenderungTest.java" />
       </list>
     </option>
   </component>
@@ -209,39 +241,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="golem" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TTD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TTD" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="modulA" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TTD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TTD" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="modulB" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TTD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TTD" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Licht" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TTD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TTD" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="TextTrenner" type="462c0819:PsiDirectoryNode" />
+              <item name="Fahkartenkauf" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TTD" type="b2602c69:ProjectViewProjectNode" />
@@ -263,6 +263,14 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="calculator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TTD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TTD" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Fahrkartenkauf" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TTD" type="b2602c69:ProjectViewProjectNode" />
@@ -332,11 +340,11 @@
       <recent name="F:\git_repo\TTD\src\test" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\git_repo\TTD\src\main\java\Fahkartenkauf" />
+      <recent name="F:\git_repo\TTD\src\test\java\Fahrkartenkauf" />
       <recent name="F:\git_repo\TTD\src\test\java\Licht" />
       <recent name="F:\git_repo\TTD\src\main\java\Licht" />
       <recent name="F:\git_repo\TTD\src\main\java" />
-      <recent name="F:\git_repo\TTD\src\main" />
-      <recent name="F:\git_repo\TTD\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -351,7 +359,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AufrufFremdsystemTest.leuchtendesLichtWirdAusgeschaltet">
+  <component name="RunManager" selected="JUnit.ErkennbareVerhaltensaenderungTest">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -397,16 +405,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GolemTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ErkennbareVerhaltensaenderungTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TTD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="golem.*" />
+          <option name="PATTERN" value="Fahrkartenkauf.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="golem" />
-      <option name="MAIN_CLASS_NAME" value="golem.GolemTest" />
+      <option name="PACKAGE_NAME" value="Fahrkartenkauf" />
+      <option name="MAIN_CLASS_NAME" value="Fahrkartenkauf.ErkennbareVerhaltensaenderungTest" />
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -472,19 +480,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.GolemTest" />
       <item itemvalue="JUnit.CalculatorTest" />
       <item itemvalue="JUnit.IntegrationTest" />
       <item itemvalue="JUnit.TextWerkzugTest.testeTrenner" />
       <item itemvalue="JUnit.AufrufFremdsystemTest.leuchtendesLichtWirdAusgeschaltet" />
+      <item itemvalue="JUnit.ErkennbareVerhaltensaenderungTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ErkennbareVerhaltensaenderungTest" />
         <item itemvalue="JUnit.AufrufFremdsystemTest.leuchtendesLichtWirdAusgeschaltet" />
         <item itemvalue="JUnit.TextWerkzugTest.testeTrenner" />
         <item itemvalue="JUnit.IntegrationTest" />
         <item itemvalue="JUnit.CalculatorTest" />
-        <item itemvalue="JUnit.GolemTest" />
       </list>
     </recent_temporary>
   </component>
@@ -505,14 +513,11 @@
       <workItem from="1560150506484" duration="635000" />
       <workItem from="1560178831722" duration="20000" />
       <workItem from="1560612761356" duration="1307000" />
-      <workItem from="1568465269843" duration="1554000" />
+      <workItem from="1568465269843" duration="2280000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GolemTest - 2019.06.08 at 18h 06m 37s.xml">
-      <configuration name="GolemTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="GolemTest - 2019.06.08 at 18h 52m 48s.xml">
       <configuration name="GolemTest" configurationId="JUnit" />
     </history-entry>
@@ -540,9 +545,12 @@
     <history-entry file="TextWerkzugTest_testeTrenner - 2019.09.14 at 15h 06m 01s.xml">
       <configuration name="TextWerkzugTest.testeTrenner" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AufrufFremdsystemTest_leuchtendesLichtWirdAusgeschaltet - 2019.09.14 at 15h 13m 59s.xml">
+      <configuration name="AufrufFremdsystemTest.leuchtendesLichtWirdAusgeschaltet" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14167000" />
+    <option name="totallyTimeSpent" value="14893000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-12" y="0" width="1639" height="895" extended-state="0" />
@@ -607,9 +615,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/integration/modulA/ModulB.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/integration/modulB/KonkretesModulB.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/newauslagern/Archivar.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/newauslagern/Datenbank.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/newauslagern/NeuerArchivar.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/newauslagern/Schredder.java" />
@@ -736,34 +741,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TextTrenner/TextWerkzeug.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TextTrenner/TextWerkzugTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Licht/Licht.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Licht/Schalter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Licht/Kronleuchter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -771,10 +748,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Licht/Schalter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Licht/Licht.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-all/1.10.19/mockito-all-1.10.19.jar!/org/mockito/stubbing/OngoingStubbing.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Licht/AufrufFremdsystemTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+          <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TextTrenner/TextWerkzeug.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TextTrenner/TextWerkzugTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Fahkartenkauf/Fahrkartenautomat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-237">
+          <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Fahrkartenkauf/ErkennbareVerhaltensaenderungTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
         </state>
       </provider>
     </entry>
