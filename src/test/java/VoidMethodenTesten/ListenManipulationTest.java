@@ -26,10 +26,10 @@ public class ListenManipulationTest {
 
     @Test
     public void removeFirstItemFromList(){
-        int newListSizeBeforeRemove = nameList.size();
+        int originListSize = nameList.size();
         listenManipulation.removeFirstItemFromList(nameList);
         int newListSizeAfterRemove = nameList.size();
-        assertEquals(newListSizeBeforeRemove-1,newListSizeAfterRemove);
+        assertEquals(originListSize-1,newListSizeAfterRemove);
     }
 
     @Test
@@ -43,9 +43,9 @@ public class ListenManipulationTest {
     @Test
     public void noResultAfterTryingToRemoveNotAvailableItemInList(){
         String testName = "Miriam";
-        int listSizeBeforeManipulation = nameList.size();
+        int originListSize = nameList.size();
         listenManipulation.removeObjectFromList(nameList, testName);
         int listSizeAfterManipulation = nameList.size();
-        assertEquals(listSizeBeforeManipulation, listSizeAfterManipulation);
+        assertEquals(originListSize, listSizeAfterManipulation);
     }
 }
