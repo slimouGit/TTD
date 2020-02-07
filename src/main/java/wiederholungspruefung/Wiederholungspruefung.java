@@ -15,16 +15,10 @@ public class Wiederholungspruefung {
     public boolean pruefeWiederholungsPruefungsErfordernis(LocalDate festgestelltAm) {
         boolean wiederholungspruefungErforderlich = false;
         LocalDate untereDatumsGrenze = LocalDate.of(2014, 06, 01);
-        if(festgestelltAm.isBefore(untereDatumsGrenze) && ermittelPruefdatum(festgestelltAm).isBefore(LocalDate.now())){
+        if(festgestelltAm.isBefore(untereDatumsGrenze) && berechneNaechstesPruefDatum(festgestelltAm).isBefore(LocalDate.now())){
                 wiederholungspruefungErforderlich = true;
         }
         return wiederholungspruefungErforderlich;
-    }
-
-
-    public LocalDate ermittelPruefdatum(LocalDate pruefDatum) {
-        LocalDate ermitteltesDatum = berechnePruefDatum(pruefDatum);
-        return ermitteltesDatum;
     }
 
     /**
@@ -32,14 +26,22 @@ public class Wiederholungspruefung {
      * wenn das pruefDatum vor dem 06.01.2019 liegt, werden solange 5 Jahre addiert
      * bis diese Bedingung nicht mehr zutrifft
      */
-    private LocalDate berechnePruefDatum(LocalDate pruefDatum) {
+    public LocalDate berechneNaechstesPruefDatum(LocalDate pruefDatum) {
         LocalDate obereDatumsGrenze = LocalDate.of(2019,06,01);
         if(pruefDatum.isBefore(obereDatumsGrenze)){
             this.tmpResult=pruefDatum.plusYears(5);
-            berechnePruefDatum(tmpResult);
+            berechneNaechstesPruefDatum(this.tmpResult);
         }else{
             this.tmpResult=pruefDatum;
         }
-        return tmpResult;
+        return this.tmpResult;
+    }
+
+
+
+
+    public LocalDate ermittelPruefdatum(LocalDate pruefDatum) {
+        LocalDate ermitteltesDatum = berechneNaechstesPruefDatum(pruefDatum);
+        return ermitteltesDatum;
     }
 }

@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d0cb60f-ae96-4f24-9dd5-3cac21202f27" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/wiederholungspruefung/Wiederholungspruefung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wiederholungspruefung/Wiederholungspruefung.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/wiederholungspruefung/WiederholungspruefungTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wiederholungspruefung/WiederholungspruefungTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/wiederholungspruefung/Wiederholungspruefung.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/wiederholungspruefung/Wiederholungspruefung.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -12,6 +14,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="71" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -35,8 +40,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/wiederholungspruefung/Wiederholungspruefung.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+            <state relative-caret-position="442">
+              <caret line="32" column="44" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -44,7 +49,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/wiederholungspruefung/WiederholungspruefungTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
+            <state relative-caret-position="289">
               <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
@@ -135,7 +140,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="44" />
     <option name="y" value="3" />
     <option name="width" value="1819" />
@@ -147,6 +152,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -230,7 +236,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -275,7 +280,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.WiederholungspruefungTest.ermittelPruefdatum">
+  <component name="RunManager" selected="JUnit.WiederholungspruefungTest">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -406,8 +411,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.WiederholungspruefungTest.ermittelPruefdatum" />
         <item itemvalue="JUnit.WiederholungspruefungTest" />
+        <item itemvalue="JUnit.WiederholungspruefungTest.ermittelPruefdatum" />
         <item itemvalue="JUnit.WiederholungspruefungTest.pruefungNochNichtNotwendig" />
         <item itemvalue="JUnit.WiederholungspruefungTest.pruefungNotwendig" />
         <item itemvalue="JUnit.Wiederholungspruefung.pruefungNotwendig" />
@@ -435,23 +440,12 @@
       <workItem from="1568529745470" duration="7515000" />
       <workItem from="1569044459790" duration="5556000" />
       <workItem from="1569137655548" duration="1139000" />
-      <workItem from="1581094071128" duration="5925000" />
+      <workItem from="1581094071128" duration="6556000" />
+      <workItem from="1581107495946" duration="240000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WiederholungspruefungTest_ermittelPruefdatum - 2020.02.07 at 19h 04m 44s.xml">
-      <configuration name="WiederholungspruefungTest.ermittelPruefdatum" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WiederholungspruefungTest_ermittelPruefdatum - 2020.02.07 at 19h 05m 16s.xml">
-      <configuration name="WiederholungspruefungTest.ermittelPruefdatum" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WiederholungspruefungTest_ermittelPruefdatum - 2020.02.07 at 19h 05m 30s.xml">
-      <configuration name="WiederholungspruefungTest.ermittelPruefdatum" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WiederholungspruefungTest_ermittelPruefdatum - 2020.02.07 at 19h 05m 46s.xml">
-      <configuration name="WiederholungspruefungTest.ermittelPruefdatum" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="WiederholungspruefungTest_ermittelPruefdatum - 2020.02.07 at 19h 07m 18s.xml">
       <configuration name="WiederholungspruefungTest.ermittelPruefdatum" configurationId="JUnit" />
     </history-entry>
@@ -470,15 +464,27 @@
     <history-entry file="WiederholungspruefungTest_ermittelPruefdatum - 2020.02.07 at 19h 20m 27s.xml">
       <configuration name="WiederholungspruefungTest.ermittelPruefdatum" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="WiederholungspruefungTest - 2020.02.07 at 19h 34m 08s.xml">
+      <configuration name="WiederholungspruefungTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WiederholungspruefungTest_ermittelPruefdatum - 2020.02.07 at 19h 34m 40s.xml">
+      <configuration name="WiederholungspruefungTest.ermittelPruefdatum" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WiederholungspruefungTest - 2020.02.07 at 19h 39m 57s.xml">
+      <configuration name="WiederholungspruefungTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WiederholungspruefungTest - 2020.02.07 at 19h 43m 26s.xml">
+      <configuration name="WiederholungspruefungTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35710000" />
+    <option name="totallyTimeSpent" value="36581000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="44" y="3" width="1819" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21773735" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22001137" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -486,9 +492,9 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.031678986" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.22386484" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32946146" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28933474" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.22386484" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -534,42 +540,6 @@
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/wiederholungspruefung/Wiederholungspruefung.java</url>
-          <line>42</line>
-          <properties />
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/wiederholungspruefung/Wiederholungspruefung.java</url>
-          <line>38</line>
-          <properties />
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/wiederholungspruefung/Wiederholungspruefung.java</url>
-          <line>40</line>
-          <properties />
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/wiederholungspruefung/Wiederholungspruefung.java</url>
-          <line>26</line>
-          <properties />
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/wiederholungspruefung/WiederholungspruefungTest.java</url>
-          <line>15</line>
-          <properties />
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/wiederholungspruefung/WiederholungspruefungTest.java</url>
-          <line>14</line>
-          <properties />
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -588,7 +558,7 @@
     <SUITE FILE_PATH="coverage/TTD$ListenManipulationTest.ic" NAME="ListenManipulationTest Coverage Results" MODIFIED="1569083604188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>VoidMethodenTesten.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/TTD$WiederholungspruefungTest.ic" NAME="WiederholungspruefungTest Coverage Results" MODIFIED="1581100440902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/TTD$WiederholungspruefungTest.ic" NAME="WiederholungspruefungTest Coverage Results" MODIFIED="1581107737783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>wiederholungspruefung.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/TTD$PreisrechnerTest.ic" NAME="PreisrechnerTest Coverage Results" MODIFIED="1569046458673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -829,14 +799,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/wiederholungspruefung/Wiederholungspruefung.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+        <state relative-caret-position="442">
+          <caret line="32" column="44" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/wiederholungspruefung/WiederholungspruefungTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
+        <state relative-caret-position="289">
           <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
