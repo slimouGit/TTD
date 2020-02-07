@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0d0cb60f-ae96-4f24-9dd5-3cac21202f27" name="Default Changelist" comment="" />
+    <list default="true" id="0d0cb60f-ae96-4f24-9dd5-3cac21202f27" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/wiederholungspruefung/Wiederholungspruefung.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/wiederholungspruefung/Wiederholungspruefung.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TTD.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TTD.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,20 +37,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/VoidMethodenTesten/ListenManipulationTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/wiederholungspruefung/Wiederholungspruefung.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="661">
-              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+            <state relative-caret-position="85">
+              <caret line="5" column="85" lean-forward="true" selection-start-line="5" selection-start-column="85" selection-end-line="5" selection-end-column="85" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/VoidMethoden/ListenManipulation.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/wiederholungspruefung/Wiederholungspruefung.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+            <state relative-caret-position="187">
+              <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -62,11 +70,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/kurs/unittesting/nureinaspekt/Fahrkartenautomat.java" />
-        <option value="$PROJECT_DIR$/src/kurs/unittesting/stubsundmocks/Archivar.java" />
-        <option value="$PROJECT_DIR$/src/kurs/unittesting/stubsundmocks/Datenbank.java" />
-        <option value="$PROJECT_DIR$/src/kurs/unittesting/stubsundmocks/Schredder.java" />
-        <option value="$PROJECT_DIR$/src/kurs/unittesting/uebungen/externeaufrufe/MietMaxGenerator.java" />
         <option value="$PROJECT_DIR$/src/kurs/unittesting/uebungen/externeaufrufe/Wohnung.java" />
         <option value="$PROJECT_DIR$/src/kurs/unittesting/uebungen/externeaufrufe/Wohnungsdatenbank.java" />
         <option value="$PROJECT_DIR$/src/kurs/unittesting/uebungen/externeaufrufe/loesung/Datenbestand.java" />
@@ -113,6 +116,11 @@
         <option value="$PROJECT_DIR$/src/test/java/VoidMethodeTesten/ListenManipulationTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/VoidMethoden/ListenManipulation.java" />
         <option value="$PROJECT_DIR$/src/test/java/VoidMethodenTesten/ListenManipulationTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/VoidMethoden/MirrorText.java" />
+        <option value="$PROJECT_DIR$/src/main/java/VoidMethoden/TextSpiegeln.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TextSpiegeln/TextSpiegeln.java" />
+        <option value="$PROJECT_DIR$/src/main/java/wiederholungspruefung/Wiederholungspruefung.java" />
+        <option value="$PROJECT_DIR$/src/test/java/wiederholungspruefung/Wiederholungspruefung.java" />
       </list>
     </option>
   </component>
@@ -180,6 +188,14 @@
               <item name="TTD" type="b2602c69:ProjectViewProjectNode" />
               <item name="TTD" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wiederholungspruefung" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TTD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TTD" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -188,6 +204,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TTD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TTD" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="calculator" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TTD" type="b2602c69:ProjectViewProjectNode" />
@@ -196,6 +220,14 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="VoidMethodenTesten" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TTD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TTD" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wiederholungspruefung" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -217,21 +249,22 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\git_repo\TTD\src\test\java" />
+      <recent name="F:\git_repo\TTD\src\main\java" />
+      <recent name="F:\git_repo\TTD\src\test" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\git_repo\TTD\src\main\java\Preisrechner" />
       <recent name="F:\git_repo\TTD\src\main\java\Fahkartenkauf" />
       <recent name="F:\git_repo\TTD\src\test\java\Fahrkartenkauf" />
       <recent name="F:\git_repo\TTD\src\test\java\Licht" />
       <recent name="F:\git_repo\TTD\src\main\java\Licht" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\git_repo\TTD\src\test\java" />
-      <recent name="F:\git_repo\TTD\src\main\java" />
-      <recent name="F:\git_repo\TTD\src\test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -246,7 +279,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ListenManipulationTest">
+  <component name="RunManager" selected="JUnit.WiederholungspruefungTest.pruefungNotwendig">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -292,40 +325,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListenManipulationTest.removeFirstItemFromList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TTD" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="VoidMethodenTesten.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="VoidMethodenTesten" />
-      <option name="MAIN_CLASS_NAME" value="VoidMethodenTesten.ListenManipulationTest" />
-      <option name="METHOD_NAME" value="removeFirstItemFromList" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ListenManipulationTest.removeItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TTD" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="VoidMethodenTesten.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="VoidMethodenTesten" />
-      <option name="MAIN_CLASS_NAME" value="VoidMethodenTesten.ListenManipulationTest" />
-      <option name="METHOD_NAME" value="removeItem" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ListenManipulationTest.removeObjectFromList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TTD" />
       <extension name="coverage">
@@ -337,6 +336,40 @@
       <option name="PACKAGE_NAME" value="VoidMethodenTesten" />
       <option name="MAIN_CLASS_NAME" value="VoidMethodenTesten.ListenManipulationTest" />
       <option name="METHOD_NAME" value="removeObjectFromList" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WiederholungspruefungTest.pruefungNotwendig" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TTD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="wiederholungspruefung.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="wiederholungspruefung" />
+      <option name="MAIN_CLASS_NAME" value="wiederholungspruefung.WiederholungspruefungTest" />
+      <option name="METHOD_NAME" value="pruefungNotwendig" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Wiederholungspruefung.pruefungNotwendig" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TTD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="wiederholungspruefung.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="wiederholungspruefung" />
+      <option name="MAIN_CLASS_NAME" value="wiederholungspruefung.Wiederholungspruefung" />
+      <option name="METHOD_NAME" value="pruefungNotwendig" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -369,19 +402,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.ListenManipulationTest.removeItem" />
-      <item itemvalue="JUnit.ListenManipulationTest.removeFirstItemFromList" />
       <item itemvalue="JUnit.ListenManipulationTest.removeObjectFromList" />
       <item itemvalue="JUnit.ListenManipulationTest.noResultAfterTryDeletingNotFoundItemInList" />
       <item itemvalue="JUnit.ListenManipulationTest" />
+      <item itemvalue="JUnit.Wiederholungspruefung.pruefungNotwendig" />
+      <item itemvalue="JUnit.WiederholungspruefungTest.pruefungNotwendig" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WiederholungspruefungTest.pruefungNotwendig" />
+        <item itemvalue="JUnit.Wiederholungspruefung.pruefungNotwendig" />
         <item itemvalue="JUnit.ListenManipulationTest" />
         <item itemvalue="JUnit.ListenManipulationTest.removeObjectFromList" />
         <item itemvalue="JUnit.ListenManipulationTest.noResultAfterTryDeletingNotFoundItemInList" />
-        <item itemvalue="JUnit.ListenManipulationTest.removeFirstItemFromList" />
-        <item itemvalue="JUnit.ListenManipulationTest.removeItem" />
       </list>
     </recent_temporary>
   </component>
@@ -405,6 +438,8 @@
       <workItem from="1568465269843" duration="2962000" />
       <workItem from="1568529745470" duration="7515000" />
       <workItem from="1569044459790" duration="5556000" />
+      <workItem from="1569137655548" duration="1139000" />
+      <workItem from="1581094071128" duration="411000" />
     </task>
     <servers />
   </component>
@@ -441,13 +476,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28646000" />
+    <option name="totallyTimeSpent" value="30196000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="76" y="0" width="1819" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21318932" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21773735" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -466,8 +501,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32939634" />
-      <window_info active="true" anchor="right" id="Coverage" side_tool="true" visible="true" weight="0.14951678" />
+      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.3284055" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -477,6 +511,7 @@
       <window_info anchor="right" id="Maven" order="6" weight="0.33099005" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info active="true" anchor="right" id="Coverage" order="9" side_tool="true" visible="true" weight="0.14951678" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -502,12 +537,6 @@
           <line>23</line>
           <properties />
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/VoidMethodenTesten/ListenManipulationTest.java</url>
-          <line>39</line>
-          <properties />
-          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -544,9 +573,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/stubsundmocks/Datenbank.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/stubsundmocks/Schredder.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/uebungen/externeaufrufe/MietMaxGenerator.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/uebungen/externeaufrufe/Wohnung.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/uebungen/externeaufrufe/loesung/Datenbestand.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/uebungen/externeaufrufe/loesung/MietMaxGenerator.java" />
@@ -620,13 +646,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/calculator/CalculatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
@@ -749,6 +768,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TextSpiegeln/TextSpiegeln.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/VoidMethodenTesten/ListenManipulationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/VoidMethoden/ListenManipulation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -756,10 +783,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/VoidMethodenTesten/ListenManipulationTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/calculator/CalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="661">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/wiederholungspruefung/Wiederholungspruefung.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="85" lean-forward="true" selection-start-line="5" selection-start-column="85" selection-end-line="5" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/wiederholungspruefung/Wiederholungspruefung.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
         </state>
       </provider>
     </entry>
