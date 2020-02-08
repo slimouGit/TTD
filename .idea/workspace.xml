@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0d0cb60f-ae96-4f24-9dd5-3cac21202f27" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/wiederholungspruefung/Wiederholungspruefung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wiederholungspruefung/Wiederholungspruefung.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wiederholungspruefung/WiederholungspruefungTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wiederholungspruefung/WiederholungspruefungTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,20 +34,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/wiederholungspruefung/Wiederholungspruefung.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+            <state relative-caret-position="333">
+              <caret line="35" column="80" selection-start-line="35" selection-start-column="58" selection-end-line="35" selection-end-column="80" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/wiederholungspruefung/WiederholungspruefungTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="603">
-              <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+            <state relative-caret-position="212">
+              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
             </state>
           </provider>
         </entry>
@@ -439,17 +438,11 @@
       <workItem from="1569137655548" duration="1139000" />
       <workItem from="1581094071128" duration="6556000" />
       <workItem from="1581107495946" duration="240000" />
-      <workItem from="1581144444518" duration="9694000" />
+      <workItem from="1581144444518" duration="10094000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WiederholungspruefungTest - 2020.02.08 at 09h 17m 12s.xml">
-      <configuration name="WiederholungspruefungTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WiederholungspruefungTest_pruefungNochNichtNotwendig_3 - 2020.02.08 at 11h 33m 01s.xml">
-      <configuration name="WiederholungspruefungTest.pruefungNochNichtNotwendig_3" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="WiederholungspruefungTest - 2020.02.08 at 11h 34m 38s.xml">
       <configuration name="WiederholungspruefungTest" configurationId="JUnit" />
     </history-entry>
@@ -474,15 +467,21 @@
     <history-entry file="WiederholungspruefungTest - 2020.02.08 at 12h 07m 12s.xml">
       <configuration name="WiederholungspruefungTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="WiederholungspruefungTest - 2020.02.08 at 12h 15m 43s.xml">
+      <configuration name="WiederholungspruefungTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WiederholungspruefungTest - 2020.02.08 at 12h 16m 17s.xml">
+      <configuration name="WiederholungspruefungTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46275000" />
+    <option name="totallyTimeSpent" value="46675000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1300" height="820" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22338709" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11129032" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -490,8 +489,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32946146" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.15574963" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32896653" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.15574963" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36681223" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -511,7 +510,7 @@
       <window_info anchor="right" id="Maven" order="6" weight="0.33099005" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info active="true" anchor="right" id="Coverage" order="9" side_tool="true" visible="true" weight="0.14919356" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.14919356" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -556,7 +555,7 @@
     <SUITE FILE_PATH="coverage/TTD$PreisrechnerTest.ic" NAME="PreisrechnerTest Coverage Results" MODIFIED="1569046458673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Preisrechner.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/TTD$WiederholungspruefungTest.ic" NAME="WiederholungspruefungTest Coverage Results" MODIFIED="1581160566240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/TTD$WiederholungspruefungTest.ic" NAME="WiederholungspruefungTest Coverage Results" MODIFIED="1581160956108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>wiederholungspruefung.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/TTD$ListenManipulationTest_removeObjectFromList.ic" NAME="ListenManipulationTest.removeObjectFromList Coverage Results" MODIFIED="1569083552572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -691,17 +690,17 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Downloads/20200207_151205.jpg" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/wiederholungspruefung/WiederholungspruefungTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/wiederholungspruefung/Wiederholungspruefung.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="603">
-          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+        <state relative-caret-position="333">
+          <caret line="35" column="80" selection-start-line="35" selection-start-column="58" selection-end-line="35" selection-end-column="80" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/wiederholungspruefung/Wiederholungspruefung.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/wiederholungspruefung/WiederholungspruefungTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        <state relative-caret-position="212">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
         </state>
       </provider>
     </entry>

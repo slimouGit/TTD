@@ -30,17 +30,17 @@ public class Wiederholungspruefung {
     /**
      * Die naechste Pruefung muss nach dem 01.06.2019 erfolgen.
      * Sofern das Datum 'festgestelltAm' vor dem 01.06.2019 liegt,
-     * werden 5 Jahre addiert solange bis diese Bedingung nicht mehr zutrifft.
+     * werden in addiereJahresIntervall() 5 Jahre addiert solange bis diese Bedingung nicht mehr zutrifft.
      */
     public LocalDate berechneNaechstesPruefDatum(LocalDate festgestelltAm) {
-        return (festgestelltAm.isBefore(this.stichtag)) ? berechneJahresIntervall(festgestelltAm, 5) : festgestelltAm;
+        return (festgestelltAm.isBefore(this.stichtag)) ? addiereJahresIntervall(festgestelltAm, 5) : festgestelltAm;
     }
 
     /**
      * Datum festgestelltAm wird um uebergebene Anzahl der Jahre erhoeht
      * und berechneNaechstesPruefDatum() rekursiv aufgerufen
      */
-    private LocalDate berechneJahresIntervall(LocalDate festgestelltAm, int jahre) {
+    private LocalDate addiereJahresIntervall(LocalDate festgestelltAm, int jahre) {
         return berechneNaechstesPruefDatum(festgestelltAm.plusYears(jahre));
     }
 
