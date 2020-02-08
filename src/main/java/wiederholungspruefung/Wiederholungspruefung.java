@@ -4,22 +4,17 @@ import java.time.LocalDate;
 
 public class Wiederholungspruefung {
 
-    private LocalDate tmpResult;
+    //Datum fuer Wiederholungspruefung zur Manipulierung in 5 Jahren Intervallen
+    private LocalDate intervallDatum;
 
     /**
      * Eine Pruefung ist dann erforderlich, wenn sie folgende Kriterien erfuellt:
-     * 'festgestelltAm' liegt vor dem 01.06.2014 und das berechnete Datum der naechsten Pruefung liegt zwischen
-     * dem 01.06.2019 und dem aktuellen Kalendertag
+     * 'festgestelltAm' liegt vor dem 01.06.2014 und 'datumDerNaechstenPruefung()'
+     * liegt zwischen dem 01.06.2019 und dem aktuellen Kalendertag
      */
     public boolean pruefeWiederholungsPruefungsErfordernis(LocalDate festgestelltAm) {
-        boolean wiederholungspruefungErforderlich = false;
-        LocalDate untereDatumsGrenze = LocalDate.of(2014, 06, 01);
-
-        if (festgestelltAm.isBefore(untereDatumsGrenze) &&
-                datumDerNaechstenPruefung(festgestelltAm).isBefore(LocalDate.now())) {
-            wiederholungspruefungErforderlich = true;
-        }
-        return wiederholungspruefungErforderlich;
+        return (festgestelltAm.isBefore(LocalDate.of(2014, 06, 01)) &&
+                datumDerNaechstenPruefung(festgestelltAm).isBefore(LocalDate.now()));
     }
 
     private LocalDate datumDerNaechstenPruefung(LocalDate festgestelltAm) {
@@ -27,19 +22,18 @@ public class Wiederholungspruefung {
     }
 
     /**
-     * Die naechste Pruefung muss nach dem 01.06.2019 erfolgen
-     * sofern das Datum 'festgestelltAm' vor dem 06.01.2019 liegt, werden solange 5 Jahre addiert
-     * bis diese Bedingung nicht mehr zutrifft
+     * Die naechste Pruefung muss nach dem 01.06.2019 erfolgen.
+     * Sofern das Datum 'festgestelltAm' vor dem 06.01.2019 liegt,
+     * werden solange 5 Jahre addiert bis diese Bedingung nicht mehr zutrifft.
      */
     public LocalDate berechneNaechstesPruefDatum(LocalDate festgestelltAm) {
-        LocalDate obereDatumsGrenze = LocalDate.of(2019, 06, 01);
-        if (festgestelltAm.isBefore(obereDatumsGrenze)) {
-            this.tmpResult = festgestelltAm.plusYears(5);
-            berechneNaechstesPruefDatum(this.tmpResult);
+        if (festgestelltAm.isBefore(LocalDate.of(2019, 06, 01))) {
+            this.intervallDatum = festgestelltAm.plusYears(5);
+            berechneNaechstesPruefDatum(this.intervallDatum);
         } else {
-            this.tmpResult = festgestelltAm;
+            this.intervallDatum = festgestelltAm;
         }
-        return this.tmpResult;
+        return this.intervallDatum;
     }
 
 }

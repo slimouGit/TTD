@@ -17,7 +17,7 @@ public class WiederholungspruefungTest {
     }
 
     @Test
-    public void pruefungNochNichtNotwendig(){
+    public void pruefungNochNichtNotwendig_1(){
         Wiederholungspruefung wiederholungspruefung = new Wiederholungspruefung();
         LocalDate pruefDatum = LocalDate.of(2010,06,01);
         boolean pruefungErforderlich = wiederholungspruefung.pruefeWiederholungsPruefungsErfordernis(pruefDatum);
@@ -25,12 +25,20 @@ public class WiederholungspruefungTest {
     }
 
     @Test
-    public void ermittelPruefdatum(){
+    public void pruefungNochNichtNotwendig_2(){
         Wiederholungspruefung wiederholungspruefung = new Wiederholungspruefung();
-        LocalDate erwartetesDatum = LocalDate.of(2023,01,01);
+        LocalDate pruefDatum = LocalDate.of(2021,06,01);
+        boolean pruefungErforderlich = wiederholungspruefung.pruefeWiederholungsPruefungsErfordernis(pruefDatum);
+        assertFalse(pruefungErforderlich);
+    }
+
+    @Test
+    public void berechneNaechstesPruefDatum(){
+        Wiederholungspruefung wiederholungspruefung = new Wiederholungspruefung();
+        LocalDate erwartetesDatumNaechstePruefung = LocalDate.of(2023,01,01);
         LocalDate festgestelltAm = LocalDate.of(2008,01,01);
-        LocalDate berechnetesDatum = wiederholungspruefung.berechneNaechstesPruefDatum(festgestelltAm);
-        assertTrue(erwartetesDatum.isEqual(berechnetesDatum));
+        LocalDate berechnetesDatumNaechstePruefung = wiederholungspruefung.berechneNaechstesPruefDatum(festgestelltAm);
+        assertTrue(erwartetesDatumNaechstePruefung.isEqual(berechnetesDatumNaechstePruefung));
     }
 
 
