@@ -28,9 +28,9 @@ public class WiederholungspruefungTest {
     public void ermittelPruefdatum(){
         Wiederholungspruefung wiederholungspruefung = new Wiederholungspruefung();
         LocalDate erwartetesDatum = LocalDate.of(2023,01,01);
-        LocalDate eingegebenesDatum = LocalDate.of(2008,01,01);
-        LocalDate berechnetesDatum = wiederholungspruefung.berechneNaechstesPruefDatum(eingegebenesDatum);
-        assertEquals(erwartetesDatum.toString(), berechnetesDatum.toString());
+        LocalDate festgestelltAm = LocalDate.of(2008,01,01);
+        LocalDate berechnetesDatum = wiederholungspruefung.berechneNaechstesPruefDatum(festgestelltAm);
+        assertTrue(erwartetesDatum.isEqual(berechnetesDatum));
     }
 
 
