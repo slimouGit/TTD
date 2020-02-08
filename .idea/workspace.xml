@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0d0cb60f-ae96-4f24-9dd5-3cac21202f27" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/wiederholungspruefung/Wiederholungspruefung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wiederholungspruefung/Wiederholungspruefung.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/wiederholungspruefung/WiederholungspruefungTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wiederholungspruefung/WiederholungspruefungTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,8 +38,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/wiederholungspruefung/Wiederholungspruefung.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+            <state relative-caret-position="191">
+              <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -46,8 +47,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/wiederholungspruefung/WiederholungspruefungTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+            <state relative-caret-position="603">
+              <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
             </state>
           </provider>
         </entry>
@@ -322,7 +323,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WiederholungspruefungTest.ermittelPruefdatum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WiederholungspruefungTest.pruefungNochNichtNotwendig_3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TTD" />
       <extension name="coverage">
         <pattern>
@@ -332,14 +333,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="wiederholungspruefung" />
       <option name="MAIN_CLASS_NAME" value="wiederholungspruefung.WiederholungspruefungTest" />
-      <option name="METHOD_NAME" value="ermittelPruefdatum" />
+      <option name="METHOD_NAME" value="pruefungNochNichtNotwendig_3" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WiederholungspruefungTest.pruefungNochNichtNotwendig" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WiederholungspruefungTest.pruefungNochNichtNotwendig_4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TTD" />
       <extension name="coverage">
         <pattern>
@@ -349,7 +350,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="wiederholungspruefung" />
       <option name="MAIN_CLASS_NAME" value="wiederholungspruefung.WiederholungspruefungTest" />
-      <option name="METHOD_NAME" value="pruefungNochNichtNotwendig" />
+      <option name="METHOD_NAME" value="pruefungNochNichtNotwendig_4" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -400,18 +401,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.WiederholungspruefungTest.pruefungNotwendig" />
-      <item itemvalue="JUnit.WiederholungspruefungTest.ermittelPruefdatum" />
-      <item itemvalue="JUnit.WiederholungspruefungTest.pruefungNochNichtNotwendig" />
       <item itemvalue="JUnit.WiederholungspruefungTest" />
       <item itemvalue="JUnit.WiederholungspruefungTest.berechneNaechstesPruefDatum" />
+      <item itemvalue="JUnit.WiederholungspruefungTest.pruefungNochNichtNotwendig_3" />
+      <item itemvalue="JUnit.WiederholungspruefungTest.pruefungNochNichtNotwendig_4" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.WiederholungspruefungTest" />
+        <item itemvalue="JUnit.WiederholungspruefungTest.pruefungNochNichtNotwendig_4" />
+        <item itemvalue="JUnit.WiederholungspruefungTest.pruefungNochNichtNotwendig_3" />
         <item itemvalue="JUnit.WiederholungspruefungTest.berechneNaechstesPruefDatum" />
         <item itemvalue="JUnit.WiederholungspruefungTest.pruefungNotwendig" />
-        <item itemvalue="JUnit.WiederholungspruefungTest.pruefungNochNichtNotwendig" />
-        <item itemvalue="JUnit.WiederholungspruefungTest.ermittelPruefdatum" />
       </list>
     </recent_temporary>
   </component>
@@ -438,44 +439,44 @@
       <workItem from="1569137655548" duration="1139000" />
       <workItem from="1581094071128" duration="6556000" />
       <workItem from="1581107495946" duration="240000" />
-      <workItem from="1581144444518" duration="4935000" />
+      <workItem from="1581144444518" duration="9694000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WiederholungspruefungTest - 2020.02.08 at 08h 33m 10s.xml">
+    <history-entry file="WiederholungspruefungTest - 2020.02.08 at 09h 17m 12s.xml">
       <configuration name="WiederholungspruefungTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WiederholungspruefungTest - 2020.02.08 at 08h 36m 29s.xml">
+    <history-entry file="WiederholungspruefungTest_pruefungNochNichtNotwendig_3 - 2020.02.08 at 11h 33m 01s.xml">
+      <configuration name="WiederholungspruefungTest.pruefungNochNichtNotwendig_3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WiederholungspruefungTest - 2020.02.08 at 11h 34m 38s.xml">
       <configuration name="WiederholungspruefungTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WiederholungspruefungTest_berechneNaechstesPruefDatum - 2020.02.08 at 08h 40m 52s.xml">
-      <configuration name="WiederholungspruefungTest.berechneNaechstesPruefDatum" configurationId="JUnit" />
+    <history-entry file="WiederholungspruefungTest - 2020.02.08 at 11h 41m 23s.xml">
+      <configuration name="WiederholungspruefungTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WiederholungspruefungTest_berechneNaechstesPruefDatum - 2020.02.08 at 08h 42m 44s.xml">
-      <configuration name="WiederholungspruefungTest.berechneNaechstesPruefDatum" configurationId="JUnit" />
+    <history-entry file="WiederholungspruefungTest - 2020.02.08 at 11h 47m 04s.xml">
+      <configuration name="WiederholungspruefungTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WiederholungspruefungTest_berechneNaechstesPruefDatum - 2020.02.08 at 08h 50m 16s.xml">
-      <configuration name="WiederholungspruefungTest.berechneNaechstesPruefDatum" configurationId="JUnit" />
+    <history-entry file="WiederholungspruefungTest_pruefungNochNichtNotwendig_4 - 2020.02.08 at 11h 50m 14s.xml">
+      <configuration name="WiederholungspruefungTest.pruefungNochNichtNotwendig_4" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WiederholungspruefungTest_berechneNaechstesPruefDatum - 2020.02.08 at 08h 52m 05s.xml">
-      <configuration name="WiederholungspruefungTest.berechneNaechstesPruefDatum" configurationId="JUnit" />
+    <history-entry file="WiederholungspruefungTest - 2020.02.08 at 11h 54m 32s.xml">
+      <configuration name="WiederholungspruefungTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WiederholungspruefungTest_berechneNaechstesPruefDatum - 2020.02.08 at 08h 52m 37s.xml">
-      <configuration name="WiederholungspruefungTest.berechneNaechstesPruefDatum" configurationId="JUnit" />
+    <history-entry file="WiederholungspruefungTest - 2020.02.08 at 11h 58m 48s.xml">
+      <configuration name="WiederholungspruefungTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WiederholungspruefungTest_berechneNaechstesPruefDatum - 2020.02.08 at 08h 53m 53s.xml">
-      <configuration name="WiederholungspruefungTest.berechneNaechstesPruefDatum" configurationId="JUnit" />
+    <history-entry file="WiederholungspruefungTest - 2020.02.08 at 12h 00m 35s.xml">
+      <configuration name="WiederholungspruefungTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WiederholungspruefungTest_berechneNaechstesPruefDatum - 2020.02.08 at 08h 54m 22s.xml">
-      <configuration name="WiederholungspruefungTest.berechneNaechstesPruefDatum" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WiederholungspruefungTest_berechneNaechstesPruefDatum - 2020.02.08 at 09h 05m 21s.xml">
-      <configuration name="WiederholungspruefungTest.berechneNaechstesPruefDatum" configurationId="JUnit" />
+    <history-entry file="WiederholungspruefungTest - 2020.02.08 at 12h 07m 12s.xml">
+      <configuration name="WiederholungspruefungTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41516000" />
+    <option name="totallyTimeSpent" value="46275000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1300" height="820" extended-state="0" />
@@ -490,8 +491,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32946146" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28820962" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.36681223" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.15574963" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.36681223" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -510,7 +511,7 @@
       <window_info anchor="right" id="Maven" order="6" weight="0.33099005" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Coverage" order="9" side_tool="true" visible="true" weight="0.14919356" />
+      <window_info active="true" anchor="right" id="Coverage" order="9" side_tool="true" visible="true" weight="0.14919356" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -537,12 +538,6 @@
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/wiederholungspruefung/Wiederholungspruefung.java</url>
-          <line>35</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -561,7 +556,7 @@
     <SUITE FILE_PATH="coverage/TTD$PreisrechnerTest.ic" NAME="PreisrechnerTest Coverage Results" MODIFIED="1569046458673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Preisrechner.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/TTD$WiederholungspruefungTest.ic" NAME="WiederholungspruefungTest Coverage Results" MODIFIED="1581149810607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/TTD$WiederholungspruefungTest.ic" NAME="WiederholungspruefungTest Coverage Results" MODIFIED="1581160566240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>wiederholungspruefung.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/TTD$ListenManipulationTest_removeObjectFromList.ic" NAME="ListenManipulationTest.removeObjectFromList Coverage Results" MODIFIED="1569083552572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -698,15 +693,15 @@
     <entry file="file://$USER_HOME$/Downloads/20200207_151205.jpg" />
     <entry file="file://$PROJECT_DIR$/src/test/java/wiederholungspruefung/WiederholungspruefungTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+        <state relative-caret-position="603">
+          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/wiederholungspruefung/Wiederholungspruefung.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        <state relative-caret-position="191">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
         </state>
       </provider>
     </entry>
