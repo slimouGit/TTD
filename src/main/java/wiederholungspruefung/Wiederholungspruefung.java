@@ -10,7 +10,7 @@ public class Wiederholungspruefung {
     /**
      * Eine Pruefung ist dann erforderlich, wenn sie folgende Kriterien erfuellt:
      * 'festgestelltAm' liegt vor dem 01.06.2014 und 'datumDerNaechstenPruefung()'
-     * liegt zwischen dem 01.06.2019 und dem aktuellen Kalendertag
+     * liegt vor dem aktuellen Kalendertag
      */
     public boolean pruefeWiederholungsPruefungsErfordernis(LocalDate festgestelltAm) {
         return (festgestelltAm.isBefore(LocalDate.of(2014, 06, 01)) &&
@@ -23,7 +23,7 @@ public class Wiederholungspruefung {
 
     /**
      * Die naechste Pruefung muss nach dem 01.06.2019 erfolgen.
-     * Sofern das Datum 'festgestelltAm' vor dem 06.01.2019 liegt,
+     * Sofern das Datum 'festgestelltAm' vor dem 01.06.2019 liegt,
      * werden solange 5 Jahre addiert bis diese Bedingung nicht mehr zutrifft.
      */
     public LocalDate berechneNaechstesPruefDatum(LocalDate festgestelltAm) {
