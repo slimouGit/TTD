@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d0cb60f-ae96-4f24-9dd5-3cac21202f27" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/creditAssessment/Balance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creditAssessment/CreditAssessment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creditAssessment/Dept.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/creditAssessmentTest/CreditAssessmentTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/creditAssessmentTest/CreditAssessmentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/creditAssessmentTest/CreditAssessmentTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,8 +37,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/creditAssessment/CreditAssessment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+            <state relative-caret-position="170">
+              <caret line="10" column="49" lean-forward="true" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -50,17 +46,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/creditAssessmentTest/CreditAssessmentTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/golem/GolemTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="95" column="8" lean-forward="true" selection-start-line="95" selection-start-column="8" selection-end-line="95" selection-end-column="43" />
+            <state relative-caret-position="374">
+              <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -147,8 +134,8 @@
         <option value="$PROJECT_DIR$/src/main/java/wiederholungspruefung/Wiederholungspruefung.java" />
         <option value="$PROJECT_DIR$/src/main/java/creditAssessment/Balance.java" />
         <option value="$PROJECT_DIR$/src/main/java/creditAssessment/Dept.java" />
-        <option value="$PROJECT_DIR$/src/main/java/creditAssessment/CreditAssessment.java" />
         <option value="$PROJECT_DIR$/src/test/java/creditAssessmentTest/CreditAssessmentTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/creditAssessment/CreditAssessment.java" />
       </list>
     </option>
   </component>
@@ -332,7 +319,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CreditAssessmentTest">
+  <component name="RunManager" selected="JUnit.CreditAssessmentTest.mockitoTest">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -392,6 +379,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CreditAssessmentTest.mockitoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TTD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="creditAssessmentTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="creditAssessmentTest" />
+      <option name="MAIN_CLASS_NAME" value="creditAssessmentTest.CreditAssessmentTest" />
+      <option name="METHOD_NAME" value="mockitoTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WiederholungspruefungTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TTD" />
       <extension name="coverage">
@@ -403,23 +407,6 @@
       <option name="PACKAGE_NAME" value="wiederholungspruefung" />
       <option name="MAIN_CLASS_NAME" value="wiederholungspruefung.WiederholungspruefungTest" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WiederholungspruefungTest.ermittelPruefdatum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TTD" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="wiederholungspruefung.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="wiederholungspruefung" />
-      <option name="MAIN_CLASS_NAME" value="wiederholungspruefung.WiederholungspruefungTest" />
-      <option name="METHOD_NAME" value="ermittelPruefdatum" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -451,19 +438,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.WiederholungspruefungTest.ermittelPruefdatum" />
       <item itemvalue="JUnit.WiederholungspruefungTest" />
       <item itemvalue="Application.CreditAssessment" />
       <item itemvalue="JUnit.CreditAssessmentTest.checkCreditUnworthiness" />
       <item itemvalue="JUnit.CreditAssessmentTest" />
+      <item itemvalue="JUnit.CreditAssessmentTest.mockitoTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CreditAssessmentTest.mockitoTest" />
         <item itemvalue="JUnit.CreditAssessmentTest" />
         <item itemvalue="JUnit.CreditAssessmentTest.checkCreditUnworthiness" />
         <item itemvalue="Application.CreditAssessment" />
         <item itemvalue="JUnit.WiederholungspruefungTest" />
-        <item itemvalue="JUnit.WiederholungspruefungTest.ermittelPruefdatum" />
       </list>
     </recent_temporary>
   </component>
@@ -493,32 +480,11 @@
       <workItem from="1581173531753" duration="218000" />
       <workItem from="1581173797434" duration="15000" />
       <workItem from="1581703887568" duration="25000" />
-      <workItem from="1582453594983" duration="2204000" />
+      <workItem from="1582453594983" duration="2956000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WiederholungspruefungTest_ermittelPruefdatum - 2020.02.07 at 19h 07m 18s.xml">
-      <configuration name="WiederholungspruefungTest.ermittelPruefdatum" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WiederholungspruefungTest_pruefungNotwendig - 2020.02.07 at 19h 15m 32s.xml">
-      <configuration name="WiederholungspruefungTest.pruefungNotwendig" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WiederholungspruefungTest_pruefungNotwendig - 2020.02.07 at 19h 16m 58s.xml">
-      <configuration name="WiederholungspruefungTest.pruefungNotwendig" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WiederholungspruefungTest_pruefungNochNichtNotwendig - 2020.02.07 at 19h 17m 37s.xml">
-      <configuration name="WiederholungspruefungTest.pruefungNochNichtNotwendig" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WiederholungspruefungTest_pruefungNochNichtNotwendig - 2020.02.07 at 19h 19m 27s.xml">
-      <configuration name="WiederholungspruefungTest.pruefungNochNichtNotwendig" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WiederholungspruefungTest_ermittelPruefdatum - 2020.02.07 at 19h 20m 27s.xml">
-      <configuration name="WiederholungspruefungTest.ermittelPruefdatum" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WiederholungspruefungTest - 2020.02.07 at 19h 34m 08s.xml">
-      <configuration name="WiederholungspruefungTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="WiederholungspruefungTest_ermittelPruefdatum - 2020.02.07 at 19h 34m 40s.xml">
       <configuration name="WiederholungspruefungTest.ermittelPruefdatum" configurationId="JUnit" />
     </history-entry>
@@ -528,15 +494,36 @@
     <history-entry file="WiederholungspruefungTest - 2020.02.07 at 19h 43m 26s.xml">
       <configuration name="WiederholungspruefungTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CreditAssessmentTest_checkCreditUnworthiness - 2020.02.23 at 12h 03m 41s.xml">
+      <configuration name="CreditAssessmentTest.checkCreditUnworthiness" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CreditAssessmentTest_checkCreditUnworthiness - 2020.02.23 at 12h 04m 21s.xml">
+      <configuration name="CreditAssessmentTest.checkCreditUnworthiness" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CreditAssessmentTest_checkCreditUnworthiness - 2020.02.23 at 12h 04m 57s.xml">
+      <configuration name="CreditAssessmentTest.checkCreditUnworthiness" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CreditAssessmentTest_checkCreditUnworthiness - 2020.02.23 at 12h 05m 35s.xml">
+      <configuration name="CreditAssessmentTest.checkCreditUnworthiness" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CreditAssessmentTest - 2020.02.23 at 12h 07m 02s.xml">
+      <configuration name="CreditAssessmentTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CreditAssessmentTest_mockitoTest - 2020.02.23 at 12h 15m 05s.xml">
+      <configuration name="CreditAssessmentTest.mockitoTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CreditAssessmentTest_mockitoTest - 2020.02.23 at 12h 16m 00s.xml">
+      <configuration name="CreditAssessmentTest.mockitoTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39043000" />
+    <option name="totallyTimeSpent" value="39795000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="44" y="3" width="1819" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22910745" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11313246" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -545,8 +532,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32946146" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28933474" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.22386484" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28933474" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.35269272" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -555,7 +542,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" visible="true" weight="0.3284055" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3284055" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -565,7 +552,7 @@
       <window_info anchor="right" id="Maven" order="6" weight="0.33099005" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info active="true" anchor="right" id="Coverage" order="9" side_tool="true" visible="true" weight="0.14951678" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" visible="true" weight="0.14951678" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -869,13 +856,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/creditAssessment/CreditAssessment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/golem/GolemTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
@@ -883,10 +863,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/creditAssessment/CreditAssessment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="49" lean-forward="true" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/creditAssessmentTest/CreditAssessmentTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+        <state relative-caret-position="374">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
         </state>
       </provider>
     </entry>
