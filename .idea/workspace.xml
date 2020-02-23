@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d0cb60f-ae96-4f24-9dd5-3cac21202f27" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/creditAssessment/Balance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creditAssessment/CreditAssessment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creditAssessment/Dept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/creditAssessmentTest/CreditAssessmentTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/wiederholungspruefung/Wiederholungspruefung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wiederholungspruefung/Wiederholungspruefung.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wiederholungspruefung/WiederholungspruefungTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wiederholungspruefung/WiederholungspruefungTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/wiederholungspruefung/Wiederholungspruefung.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/wiederholungspruefung/Wiederholungspruefung.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,19 +39,46 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/wiederholungspruefung/Wiederholungspruefung.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/creditAssessment/CreditAssessment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="32" column="44" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
+            <state relative-caret-position="221">
+              <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/wiederholungspruefung/WiederholungspruefungTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/creditAssessmentTest/CreditAssessmentTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="408">
+              <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/golem/GolemTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="416">
+              <caret line="95" column="8" lean-forward="true" selection-start-line="95" selection-start-column="8" selection-end-line="95" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/creditAssessment/Dept.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/creditAssessment/Balance.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -70,10 +98,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/kurs/unittesting/uebungen/externeaufrufe/Wohnungsdatenbank.java" />
-        <option value="$PROJECT_DIR$/src/kurs/unittesting/uebungen/externeaufrufe/loesung/Datenbestand.java" />
-        <option value="$PROJECT_DIR$/src/kurs/unittesting/uebungen/externeaufrufe/loesung/MietMaxGenerator.java" />
-        <option value="$PROJECT_DIR$/src/kurs/unittesting/uebungen/externeaufrufe/loesung/Wohnung.java" />
         <option value="$PROJECT_DIR$/src/kurs/unittesting/uebungen/externeaufrufe/loesung/Wohnungsdatenbank.java" />
         <option value="$PROJECT_DIR$/src/kurs/unittesting/uebungen/langekerls/Rekrut.java" />
         <option value="$PROJECT_DIR$/src/kurs/unittesting/uebungen/langekerls/Rekrutierungsbuero.java" />
@@ -121,6 +145,10 @@
         <option value="$PROJECT_DIR$/src/test/java/wiederholungspruefung/Wiederholungspruefung.java" />
         <option value="$PROJECT_DIR$/src/test/java/wiederholungspruefung/WiederholungspruefungTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/wiederholungspruefung/Wiederholungspruefung.java" />
+        <option value="$PROJECT_DIR$/src/main/java/creditAssessment/Balance.java" />
+        <option value="$PROJECT_DIR$/src/main/java/creditAssessment/Dept.java" />
+        <option value="$PROJECT_DIR$/src/main/java/creditAssessment/CreditAssessment.java" />
+        <option value="$PROJECT_DIR$/src/test/java/creditAssessmentTest/CreditAssessmentTest.java" />
       </list>
     </option>
   </component>
@@ -140,7 +168,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="44" />
     <option name="y" value="3" />
     <option name="width" value="1819" />
@@ -152,7 +180,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -177,6 +204,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TTD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TTD" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="creditAssessment" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TTD" type="b2602c69:ProjectViewProjectNode" />
@@ -221,6 +256,22 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="creditAssessmentTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TTD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TTD" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="golem" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TTD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TTD" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="VoidMethodenTesten" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -236,6 +287,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -280,15 +332,62 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.WiederholungspruefungTest">
+  <component name="RunManager" selected="JUnit.CreditAssessmentTest">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CreditAssessment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="creditAssessment.CreditAssessment" />
+      <module name="TTD" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="creditAssessment.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreditAssessmentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TTD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="creditAssessmentTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="creditAssessmentTest" />
+      <option name="MAIN_CLASS_NAME" value="creditAssessmentTest.CreditAssessmentTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreditAssessmentTest.checkCreditUnworthiness" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TTD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="creditAssessmentTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="creditAssessmentTest" />
+      <option name="MAIN_CLASS_NAME" value="creditAssessmentTest.CreditAssessmentTest" />
+      <option name="METHOD_NAME" value="checkCreditUnworthiness" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -326,57 +425,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WiederholungspruefungTest.pruefungNochNichtNotwendig" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TTD" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="wiederholungspruefung.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="wiederholungspruefung" />
-      <option name="MAIN_CLASS_NAME" value="wiederholungspruefung.WiederholungspruefungTest" />
-      <option name="METHOD_NAME" value="pruefungNochNichtNotwendig" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WiederholungspruefungTest.pruefungNotwendig" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TTD" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="wiederholungspruefung.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="wiederholungspruefung" />
-      <option name="MAIN_CLASS_NAME" value="wiederholungspruefung.WiederholungspruefungTest" />
-      <option name="METHOD_NAME" value="pruefungNotwendig" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Wiederholungspruefung.pruefungNotwendig" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TTD" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="wiederholungspruefung.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="wiederholungspruefung" />
-      <option name="MAIN_CLASS_NAME" value="wiederholungspruefung.Wiederholungspruefung" />
-      <option name="METHOD_NAME" value="pruefungNotwendig" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -403,19 +451,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.Wiederholungspruefung.pruefungNotwendig" />
-      <item itemvalue="JUnit.WiederholungspruefungTest.pruefungNotwendig" />
       <item itemvalue="JUnit.WiederholungspruefungTest.ermittelPruefdatum" />
-      <item itemvalue="JUnit.WiederholungspruefungTest.pruefungNochNichtNotwendig" />
       <item itemvalue="JUnit.WiederholungspruefungTest" />
+      <item itemvalue="Application.CreditAssessment" />
+      <item itemvalue="JUnit.CreditAssessmentTest.checkCreditUnworthiness" />
+      <item itemvalue="JUnit.CreditAssessmentTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CreditAssessmentTest" />
+        <item itemvalue="JUnit.CreditAssessmentTest.checkCreditUnworthiness" />
+        <item itemvalue="Application.CreditAssessment" />
         <item itemvalue="JUnit.WiederholungspruefungTest" />
         <item itemvalue="JUnit.WiederholungspruefungTest.ermittelPruefdatum" />
-        <item itemvalue="JUnit.WiederholungspruefungTest.pruefungNochNichtNotwendig" />
-        <item itemvalue="JUnit.WiederholungspruefungTest.pruefungNotwendig" />
-        <item itemvalue="JUnit.Wiederholungspruefung.pruefungNotwendig" />
       </list>
     </recent_temporary>
   </component>
@@ -442,6 +490,10 @@
       <workItem from="1569137655548" duration="1139000" />
       <workItem from="1581094071128" duration="6556000" />
       <workItem from="1581107495946" duration="240000" />
+      <workItem from="1581173531753" duration="218000" />
+      <workItem from="1581173797434" duration="15000" />
+      <workItem from="1581703887568" duration="25000" />
+      <workItem from="1582453594983" duration="2204000" />
     </task>
     <servers />
   </component>
@@ -478,13 +530,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36581000" />
+    <option name="totallyTimeSpent" value="39043000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="44" y="3" width="1819" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22001137" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22910745" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -493,7 +545,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32946146" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28933474" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28933474" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.22386484" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -503,7 +555,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3284055" />
+      <window_info anchor="bottom" id="Messages" order="12" visible="true" weight="0.3284055" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -555,6 +607,9 @@
     <SUITE FILE_PATH="coverage/TTD$ListenManipulationTest_removeObjectFromList.ic" NAME="ListenManipulationTest.removeObjectFromList Coverage Results" MODIFIED="1569083552572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>VoidMethodenTesten.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/TTD$CreditAssessmentTest.ic" NAME="CreditAssessmentTest Coverage Results" MODIFIED="1582456015274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>creditAssessmentTest.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/TTD$ListenManipulationTest.ic" NAME="ListenManipulationTest Coverage Results" MODIFIED="1569083604188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>VoidMethodenTesten.*</FILTER>
     </SUITE>
@@ -578,10 +633,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/uebungen/externeaufrufe/loesung/Datenbestand.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/uebungen/externeaufrufe/loesung/MietMaxGenerator.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/uebungen/externeaufrufe/loesung/Wohnung.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/uebungen/externeaufrufe/loesung/Wohnungsdatenbank.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/uebungen/langekerls/Rekrut.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/uebungen/langekerls/Rekrutierungsbuero.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/kurs/unittesting/uebungen/langekerls/TruppenGattung.java" />
@@ -615,13 +666,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/golem/GolemTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="76" column="41" selection-start-line="76" selection-start-column="41" selection-end-line="76" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -797,17 +841,52 @@
     <entry file="file://$USER_HOME$/Downloads/20200207_151205.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/wiederholungspruefung/WiederholungspruefungTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/wiederholungspruefung/Wiederholungspruefung.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
+        <state relative-caret-position="544">
           <caret line="32" column="44" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/wiederholungspruefung/WiederholungspruefungTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/creditAssessment/Dept.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="153">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/creditAssessment/Balance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/creditAssessment/CreditAssessment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/golem/GolemTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="95" column="8" lean-forward="true" selection-start-line="95" selection-start-column="8" selection-end-line="95" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/creditAssessmentTest/CreditAssessmentTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
         </state>
       </provider>
     </entry>
