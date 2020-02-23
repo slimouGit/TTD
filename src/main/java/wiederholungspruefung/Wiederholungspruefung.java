@@ -4,44 +4,44 @@ import java.time.LocalDate;
 
 public class Wiederholungspruefung {
 
-    private LocalDate tmpResult;
+    //Stichtag beinhatet das Datum, das laut Gesetz als Grenze fuer die Wiederholungs gilt
+    private LocalDate stichtag = LocalDate.of(2019, 06, 01);
+    //Datum fuer Wiederholungspruefung zur Manipulierung in 5 Jahren Intervallen
+    private LocalDate intervallDatum;
 
     /**
-     *
      * Eine Pruefung ist dann erforderlich, wenn sie folgende Kriterien erfuellt:
-     * 'festgestelltAm' liegt vor dem 01.06.2014 und das berechnete Datum der naechsten Pruefung liegt zwischen
-     * dem 01.06.2019 und dem aktuellen Kalendertag
+     * 'festgestelltAm' liegt vor dem Stichtag (01.06.2019 - 5 Jahre =) 01.06.2014
+     * und 'datumDerNaechstenPruefung()' liegt vor dem aktuellen Kalendertag
      */
     public boolean pruefeWiederholungsPruefungsErfordernis(LocalDate festgestelltAm) {
-        boolean wiederholungspruefungErforderlich = false;
-        LocalDate untereDatumsGrenze = LocalDate.of(2014, 06, 01);
-        if(festgestelltAm.isBefore(untereDatumsGrenze) && berechneNaechstesPruefDatum(festgestelltAm).isBefore(LocalDate.now())){
-                wiederholungspruefungErforderlich = true;
-        }
-        return wiederholungspruefungErforderlich;
+        return (festgestelltAm.isBefore(this.stichtag.minusYears(5)) &&
+                datumDerNaechstenPruefung(festgestelltAm).isBefore(LocalDate.now()));
     }
 
     /**
-     * Die naechste Pruefung muss nach dem 01.06.2019 erfolgen
-     * wenn das pruefDatum vor dem 06.01.2019 liegt, werden solange 5 Jahre addiert
-     * bis diese Bedingung nicht mehr zutrifft
+     * datumDerNaechstenPruefung() ruft berechneNaechstesPruefDatum() auf
+     * aus Gruenden der Lesbarkeit
      */
-    public LocalDate berechneNaechstesPruefDatum(LocalDate pruefDatum) {
-        LocalDate obereDatumsGrenze = LocalDate.of(2019,06,01);
-        if(pruefDatum.isBefore(obereDatumsGrenze)){
-            this.tmpResult=pruefDatum.plusYears(5);
-            berechneNaechstesPruefDatum(this.tmpResult);
-        }else{
-            this.tmpResult=pruefDatum;
-        }
-        return this.tmpResult;
+    private LocalDate datumDerNaechstenPruefung(LocalDate festgestelltAm) {
+        return berechneNaechstesPruefDatum(festgestelltAm);
     }
 
-
-
-
-    public LocalDate ermittelPruefdatum(LocalDate pruefDatum) {
-        LocalDate ermitteltesDatum = berechneNaechstesPruefDatum(pruefDatum);
-        return ermitteltesDatum;
+    /**
+     * Die naechste Pruefung muss nach dem 01.06.2019 erfolgen.
+     * Sofern das Datum 'festgestelltAm' vor dem 01.06.2019 liegt,
+     * werden in addiereJahresIntervall() 5 Jahre addiert solange bis diese Bedingung nicht mehr zutrifft.
+     */
+    public LocalDate berechneNaechstesPruefDatum(LocalDate festgestelltAm) {
+        return (festgestelltAm.isBefore(this.stichtag)) ? addiereJahresIntervall(festgestelltAm, 5) : festgestelltAm;
     }
+
+    /**
+     * Datum festgestelltAm wird um uebergebene Anzahl der Jahre erhoeht
+     * und berechneNaechstesPruefDatum() rekursiv aufgerufen
+     */
+    private LocalDate addiereJahresIntervall(LocalDate festgestelltAm, int jahre) {
+        return berechneNaechstesPruefDatum(festgestelltAm.plusYears(jahre));
+    }
+
 }
